@@ -1,0 +1,68 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 100vh;
+
+    background-color: rgb(8, 1, 24);
+    color: #fff;
+}
+
+.hero__text {
+    font-size: 4rem;
+    line-height: 1.5;
+}
+.hero_para {
+    max-width: 428px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.hero__button {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.hero__talk--btn {
+    padding: 1rem;
+    margin-right: 3.5rem;
+    border-radius: 2rem;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+
+    background-color: rgb(145, 216, 14);
+    color: black;
+}
+.hero__downloadWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.hero__download--btnlogo {
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    z-index: 1;
+
+    background-color: rgb(145, 216, 14);
+}
+.hero__overlay {
+    margin-left: -2rem;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+
+    border: 1px solid #fff;
+}
+.hero__link--btn {
+    margin-left: 1rem;
+    text-decoration: none;
+
+    color: #fff;
+}
